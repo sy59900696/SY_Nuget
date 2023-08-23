@@ -17,7 +17,7 @@
 2023-05-06 15:58:30,735[1] DEBUG [CS_XXXX.Form1] - Form1_Load()完成。
 
 
-## 【CL_Unit.Core】静态工具类。
+## 【CL_Unit.Core】静态工具类。(Standard2.0; net40)
 
 TextHelper // 文本、字符编码等相关处理
 
@@ -37,7 +37,8 @@ ini文件示例：
 name=张三
 
 
-## 【CL_Unit_Office.Core】 静态工具类。用作对Excel，Word的导入导出
+## 【CL_Unit_Office.Core】 静态工具类。(Standard2.0; net40)
+用作对Excel，Word的导入导出
 
 
 ### 待续。。。
