@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <Authors>SY</Authors>
+	  <PackageId>CL_Unit.Core</PackageId>
+	  <Company>SY</Company>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Copyright>https://github.com/sy59900696/SY_Nuget</Copyright>
+	  <PackageProjectUrl>https://github.com/sy59900696/SY_Nuget</PackageProjectUrl>
+	  <PackageIcon>functions.png</PackageIcon>
+	  <RepositoryUrl>https://github.com/sy59900696/SY_Nuget</RepositoryUrl>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReadmeFile>readmi.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\functions.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CL_Logger.Core" Version="1.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="readmi.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+</Project>
