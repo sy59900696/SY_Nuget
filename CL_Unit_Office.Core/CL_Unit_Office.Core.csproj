@@ -1,21 +1,39 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>SY</Authors>
-    <Company>SY_Company</Company>
-    <Version>1.0.2</Version>
-    <Copyright>SY</Copyright>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>http://nuget.cyaaaaa.cn/images/MT.ico</RepositoryUrl>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+	  <Authors>SY</Authors>
+	  <PackageId>CL_Unit_Office.Core</PackageId>
+	  <Company>SY</Company>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Copyright>https://github.com/sy59900696/SY_Nuget</Copyright>
+	  <PackageProjectUrl>https://github.com/sy59900696/SY_Nuget</PackageProjectUrl>
+	  <PackageIcon>functions.png</PackageIcon>
+	  <RepositoryUrl>https://github.com/sy59900696/SY_Nuget</RepositoryUrl>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReadmeFile>readmi.md</PackageReadmeFile>
+	  <Description>本程序集为静态工具类。用作对Excel，Word的导入导出</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MyLogger.Core" Version="1.0.3" />
+    <None Include="..\functions.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CL_Logger.Core" Version="1.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="NPOI" Version="2.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="readmi.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
   </ItemGroup>
 
 </Project>
