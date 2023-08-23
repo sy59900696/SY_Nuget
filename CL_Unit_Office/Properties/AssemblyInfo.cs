@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("CL_Unit_Office")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("SY")]
 [assembly: AssemblyProduct("CL_Unit_Office")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2018")]
+[assembly: AssemblyCopyright("Copyright © SY 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

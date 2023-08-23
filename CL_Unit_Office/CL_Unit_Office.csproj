@@ -67,8 +67,6 @@
     <Compile Include="StaticCode\WordHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="nupkg_ccaaaaa_cn\CL_Unit_Office.1.0.0.nupkg" />
-    <None Include="nupkg_ccaaaaa_cn\CL_Unit_Office.1.0.1.nupkg" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

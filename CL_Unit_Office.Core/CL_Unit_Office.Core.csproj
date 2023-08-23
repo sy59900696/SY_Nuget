@@ -5,6 +5,7 @@
 	  <Authors>SY</Authors>
 	  <PackageId>CL_Unit_Office.Core</PackageId>
 	  <Company>SY</Company>
+	  <Version>1.0.2</Version>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <Copyright>https://github.com/sy59900696/SY_Nuget</Copyright>
 	  <PackageProjectUrl>https://github.com/sy59900696/SY_Nuget</PackageProjectUrl>
