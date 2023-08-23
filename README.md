@@ -10,11 +10,14 @@
 
 日志输出： 时间 级别 [项目.类] - 填写的内容
 
+```C#
+
 2023-05-06 15:58:30,718[1] DEBUG [CS_XXXX.Form1] - Form1_Load() 
 
 2023-05-06 15:58:30,718[1] DEBUG [CS_XXXX.Form1] - 生成Debug级别日志。 
 
 2023-05-06 15:58:30,735[1] DEBUG [CS_XXXX.Form1] - Form1_Load()完成。
+```
 
 
 ## 【CL_Unit.Core】静态工具类。(Standard2.0; net40)
