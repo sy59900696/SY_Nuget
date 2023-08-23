@@ -1,8 +1,7 @@
 # 介绍
 本解决方案下包含了多个项目，均可单独使用，已发布至nuget，可直接搜索。
 
-## 【CL_Logger.Core】 
-为日志器。可被Standard2.0；net40及以上版本使用。
+## 【CL_Logger.Core】 为日志器。(Standard2.0; net40)
 引用后无需任何配置可直接使用log4net日志文件。
 
 使用方法： Logger.Debug("生成Debug级别日志。");
