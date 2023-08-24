@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <Authors>SY</Authors>
+	  <PackageId>CL_MyLogZip.Core</PackageId>
+	  <Company>SY</Company>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Copyright>https://github.com/sy59900696/SY_Nuget</Copyright>
+	  <PackageProjectUrl>https://github.com/sy59900696/SY_Nuget</PackageProjectUrl>
+	  <PackageIcon>functions.png</PackageIcon>
+	  <RepositoryUrl>https://github.com/sy59900696/SY_Nuget</RepositoryUrl>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReadmeFile>readmi.md</PackageReadmeFile>
+	  <Description>SharpZip类：压缩/解压文件及文件夹。
+MyLogZip类: 定时周期性压缩文件夹。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\functions.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CL_Logger.Core" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="SharpZipLib" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="readmi.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+</Project>

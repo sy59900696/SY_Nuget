@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CL_Unit.Core\CL_Unit.Core.csproj" />
+    <PackageReference Include="CL_Logger.Core" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CL_MyLogZip\CL_MyLogZip.csproj" />
   </ItemGroup>
 
 </Project>
